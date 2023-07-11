@@ -178,6 +178,10 @@ div.feature img.feature-img-size {
     font-weight: 800;
 }
 
+.hotdeal-title span{
+    color: #E55473;
+}
+
 .hotdeal-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
