@@ -91,7 +91,7 @@ img.banner-pic {
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-    padding: 0px 180px;
+    padding: 15px 180px 0px 180px;
     /* padding: 20px 200px; */
 }
 
@@ -126,7 +126,7 @@ div.feature img.feature-img-size {
     text-decoration-line: underline;
     padding-top: 10px;
     margin-bottom: 80px;
-    
+
 }
 
 .random-pic-section {
@@ -138,20 +138,15 @@ div.feature img.feature-img-size {
 }
 
 .randoms-container {
-    /* align-items: center;
-    justify-content: center; */
     display: flex;
     justify-content: space-around;
-    margin: 0px 70px;
 }
 
-/* .random{
-    padding-bottom: 80px;
-} */
 
 .random-img-size {
     padding-top: 80px;
     padding-left: 30px;
+    margin: 0px 50px;
 }
 
 .random-img-caption {
@@ -161,4 +156,177 @@ div.feature img.feature-img-size {
     font-size: 15px;
     font-weight: 600;
     padding-bottom: 70px;
+}
+
+.hotdeal {
+    margin-top: 120px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+}
+
+.hotdeal-container {
+    width: 540px;
+    padding: 200px;
+}
+
+.hotdeal-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hotdeal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.hotdeal-img {
+    width: 255px;
+    height: 360px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+
+
+.hotdeal-btn {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.insta-section {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background: #FFF;
+}
+
+.instagram-container {
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+
+.instapic-section {
+    background: #FFF;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 100px;
+}
+
+.instapic-container {
+    display: flex;
+    gap: 26px;
+}
+
+.instagrampic img {
+    width: 235px;
+    height: 335px;
+}
+
+/* bgimage-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../FlowerAsset/Rectangle\ 9.png');
+    background-position: center;
+} */
+
+.bgimage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../FlowerAsset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1080px 900px;
+    margin-bottom: 100px;
+}
+
+.bgimage-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 10px;
+
+}
+
+.bgimage-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+input#bgimage-input {
+    border-radius: 4px;
+    background: #FFF;
+    width: 400px;
+    height: 40px;
+    border: 0;
+    margin-bottom: 100px;
+    margin-right: 15px;
+}
+
+input#bgimage-input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-indent: 20px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-section {
+    background: #111010;
+}
+
+h2.footer-title {
+    color: #E55473;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 90px;
+
+}
+
+.title-span{
+    color: white;
+}
+
+.footer-description {
+    padding: 18px 470px 18px 470px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 120px;
 }
